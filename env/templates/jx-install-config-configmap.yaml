@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQAu4tAFV844l9iCBJWyeRQDANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ4ODBkZTdiMC00YWYxLTQ2NjYtOGFhMS1lN2Y1MGVhNWY0OGUw
+    HhcNMTkwODI0MTAzMTI3WhcNMjQwODIyMTEzMTI3WjAvMS0wKwYDVQQDEyQ4ODBk
+    ZTdiMC00YWYxLTQ2NjYtOGFhMS1lN2Y1MGVhNWY0OGUwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCtXgUzzDOkcQ9cvaM6uJKkH1iv6MHjSPWxddFrCd8H
+    FZgTRMbRBitwm2BT0d7TLRroixzSTgbPIl0u8cB2+V4YQj4XiDfdQhVX+VqEC0mP
+    tPNtITUbqa+UO9dFGeW1sMScb/Ng0bmRBRN8WeImDnedbCN3/JxQHg6hs7g/+U5j
+    4mqk59bhfQsxqUzFLyQlgSVNR5Yeb3CxVRJCUd7z6cu5ve9N6JYlO8N/uF49H+NG
+    YGs09lrHZzIooq9veTnWem+MVQbsgVgJ5OzEPmEBQO+cTmf0tsHBt4sS/gcwfu2D
+    93P/CsigRUeDYibO24OcczjdH41nHwE547ZVi4SfuBKFAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBD
+    WbHHvoWBUZ5mjMtjGfcgqQLewWKoirPdFUMxg4yThQ9XAAWONaIx7NoluRluN1fj
+    J3TUNmeHua5PFcQ04kZQGP0N62RuuX+jVVfFSe/PoVkn5ghTPxlDtsBFYCJg2/GI
+    /OrunpvZsckvwzp8AaO7+PpJ9Yl/gDloLND0Hdv4gsGTicbXiuvYW0g9jPzehMDr
+    BD25rJ5241hZrnGY7hE46KgtXgAiupFjcOG1QkCcUbEkPAYlYlvDUloM5dj8dhlO
+    XAXPKtjB9E3ohTcZzTnuuEGW7iO6olqjAYG8FbtEkAi+madcsvFWFSdXVJVNLwOP
+    pKPDJ96O9aAxW6j+hJ9y
+    -----END CERTIFICATE-----
+  clusterName: tech
+  jx-install-version: 2.0.627
+  kubeProvider: gke
+  projectID: technologists
+  region: ""
+  secretsLocation: vault
+  server: https://35.229.117.145
+  systemVaultName: jx-vault-tech
+  zone: us-east1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
